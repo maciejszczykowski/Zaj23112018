@@ -45,3 +45,25 @@ h2 {
     border: 3px dashed teal;
     list-style-type: decimal;
 }
+
+#robots {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: "Courier New";
+    background: linear-gradient(rgb(43, 255, 0), rgb(255, 238, 0), rgb(247, 6, 6), rgb(89, 0, 255));
+    padding: 30px;
+    border-radius: 20px;
+}
+#greenrobot {
+    height: 100px;
+    position: absolute;
+    left: -200px;
+    animation: slide 10s infinite;
+}
+
+@keyframes slide {
+    0% {left: -200px }
+    50% {lett: 0}
+    100% {left: 200px}
+}
