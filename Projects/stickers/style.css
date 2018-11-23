@@ -1,0 +1,78 @@
+body {
+   background: white;
+}
+
+.sticker {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 5px;
+}
+
+#coding {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Courier New";
+  background: linear-gradient(red, magenta);
+  padding: 50px 30px;
+  border-radius: 20px;
+
+}
+#web {
+
+  font-size: 40px;
+  font-family: Impact;
+  text-shadow: 2px 2px gray;
+  background: radial-gradient(yellow, rgb(0, 255, 242), red);
+  padding: 30px;
+  border-radius: 100px;
+}
+
+#moj {
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(red, blue);
+  padding: 45px;
+  border-radius: 100px;
+
+}
+
+#firerobot {
+  background: linear-gradient(to bottom left, white, yellow, tomato);
+  border: 10px dashed tomato;
+  outline: 4px solid tomato;
+  outline-offset: 2px;
+  position: relative;
+
+}
+#firetext {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+  transform: rotate(-15deg);
+
+}
+#greenrobot {
+  background: linear-gradient(to right, green, yellow);
+  border-radius: 20px;
+  border: 5px solid black;
+  position: relative;
+}
+#greentext {
+  font-size: 30px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+
+}
+
+#mojsticker {
+  background: linear-gradient(to left, purple blue);
+  border-radius: 50px;
+  border: 10px solid rgb(0, 247, 255);
+  position: relative;
+
+
+}
